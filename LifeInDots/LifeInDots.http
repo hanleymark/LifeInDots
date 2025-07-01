@@ -1,0 +1,6 @@
+@LifeInDots_HostAddress = http://localhost:5215
+
+GET {{LifeInDots_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
