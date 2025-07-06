@@ -2,7 +2,7 @@
 
 namespace LifeInDots.Models;
 
-public class PaletteColor
+public class PaletteColour
 {
     [Required]
     [StringLength(100)]

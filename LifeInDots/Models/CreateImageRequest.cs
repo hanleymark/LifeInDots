@@ -20,7 +20,7 @@ public class CreateImageRequest
 
     [Required]
     [MinLength(1)]
-    public List<PaletteColor> Palette { get; set; } = new();
+    public List<PaletteColour> Palette { get; set; } = new();
 
     public List<Event> Events { get; set; } = new();
 }
