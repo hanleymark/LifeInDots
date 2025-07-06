@@ -1,0 +1,170 @@
+{
+    "version": "1.0",
+    "aspectRatio": "16:9",
+    "startDate": "2001-02-05",
+    "endDate": "2025-07-06",
+    "palette": [
+      {
+        "description": "Birthday",
+        "hex": "#FF69B4"
+      },
+      {
+        "description": "Leap Day",
+        "hex": "#1E90FF"
+      }
+    ],
+    "events": [
+      {
+        "startDate": "2002-02-05",
+        "description": "1st birthday",
+        "colourDescription": "Birthday"
+      },
+      {
+        "startDate": "2003-02-05",
+        "description": "2nd birthday",
+        "colourDescription": "Birthday"
+      },
+      {
+        "startDate": "2004-02-05",
+        "description": "3rd birthday",
+        "colourDescription": "Birthday"
+      },
+      {
+        "startDate": "2004-02-29",
+        "description": "Leap Day 2004",
+        "colourDescription": "Leap Day"
+      },
+      {
+        "startDate": "2005-02-05",
+        "description": "4th birthday",
+        "colourDescription": "Birthday"
+      },
+      {
+        "startDate": "2006-02-05",
+        "description": "5th birthday",
+        "colourDescription": "Birthday"
+      },
+      {
+        "startDate": "2007-02-05",
+        "description": "6th birthday",
+        "colourDescription": "Birthday"
+      },
+      {
+        "startDate": "2008-02-05",
+        "description": "7th birthday",
+        "colourDescription": "Birthday"
+      },
+      {
+        "startDate": "2008-02-29",
+        "description": "Leap Day 2008",
+        "colourDescription": "Leap Day"
+      },
+      {
+        "startDate": "2009-02-05",
+        "description": "8th birthday",
+        "colourDescription": "Birthday"
+      },
+      {
+        "startDate": "2010-02-05",
+        "description": "9th birthday",
+        "colourDescription": "Birthday"
+      },
+      {
+        "startDate": "2011-02-05",
+        "description": "10th birthday",
+        "colourDescription": "Birthday"
+      },
+      {
+        "startDate": "2012-02-05",
+        "description": "11th birthday",
+        "colourDescription": "Birthday"
+      },
+      {
+        "startDate": "2012-02-29",
+        "description": "Leap Day 2012",
+        "colourDescription": "Leap Day"
+      },
+      {
+        "startDate": "2013-02-05",
+        "description": "12th birthday",
+        "colourDescription": "Birthday"
+      },
+      {
+        "startDate": "2014-02-05",
+        "description": "13th birthday",
+        "colourDescription": "Birthday"
+      },
+      {
+        "startDate": "2015-02-05",
+        "description": "14th birthday",
+        "colourDescription": "Birthday"
+      },
+      {
+        "startDate": "2016-02-05",
+        "description": "15th birthday",
+        "colourDescription": "Birthday"
+      },
+      {
+        "startDate": "2016-02-29",
+        "description": "Leap Day 2016",
+        "colourDescription": "Leap Day"
+      },
+      {
+        "startDate": "2017-02-05",
+        "description": "16th birthday",
+        "colourDescription": "Birthday"
+      },
+      {
+        "startDate": "2018-02-05",
+        "description": "17th birthday",
+        "colourDescription": "Birthday"
+      },
+      {
+        "startDate": "2019-02-05",
+        "description": "18th birthday",
+        "colourDescription": "Birthday"
+      },
+      {
+        "startDate": "2020-02-05",
+        "description": "19th birthday",
+        "colourDescription": "Birthday"
+      },
+      {
+        "startDate": "2020-02-29",
+        "description": "Leap Day 2020",
+        "colourDescription": "Leap Day"
+      },
+      {
+        "startDate": "2021-02-05",
+        "description": "20th birthday",
+        "colourDescription": "Birthday"
+      },
+      {
+        "startDate": "2022-02-05",
+        "description": "21st birthday",
+        "colourDescription": "Birthday"
+      },
+      {
+        "startDate": "2023-02-05",
+        "description": "22nd birthday",
+        "colourDescription": "Birthday"
+      },
+      {
+        "startDate": "2024-02-05",
+        "description": "23rd birthday",
+        "colourDescription": "Birthday"
+      },
+      {
+        "startDate": "2024-02-29",
+        "description": "Leap Day 2024",
+        "colourDescription": "Leap Day"
+      },
+      {
+        "startDate": "2025-02-05",
+        "description": "24th birthday",
+        "colourDescription": "Birthday"
+      }
+  
+    ]
+  }
+  
