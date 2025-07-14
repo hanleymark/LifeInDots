@@ -49,7 +49,14 @@ public class SvgImageGenerator
                 }
             }
 
-            sb.AppendLine($"  <circle cx=\"{cx}\" cy=\"{cy}\" r=\"{dotSize / 2}\" fill=\"{colour}\"/>");
+            sb.AppendLine($"  <circle cx=\"{cx}\" cy=\"{cy}\" r=\"{dotSize / 2}\" fill=\"{colour}\">");
+
+            if (matchingEvent != null)
+            {
+                var title = $"{matchingEvent.Description} – {day:yyyy-MM-dd}";
+                sb.AppendLine($"    <title>{System.Security.SecurityElement.Escape(title)}</title>");
+            }
+            sb.AppendLine("  </circle>");
         }
 
         sb.AppendLine("</svg>");
