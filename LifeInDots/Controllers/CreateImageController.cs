@@ -1,11 +1,12 @@
 ﻿using LifeInDots.Models;
 using LifeInDots.Services;
 using Microsoft.AspNetCore.Mvc;
+using System.Text;
 
 namespace LifeInDots.Controllers;
 
 [ApiController]
-[Route("[controller]")]
+[Route("v1/createimage")]
 public class CreateImageController : ControllerBase
 {
     private readonly SvgImageGenerator _svgGenerator;
@@ -16,7 +17,7 @@ public class CreateImageController : ControllerBase
     }
 
     [HttpPost]
-    public IActionResult Post([FromBody] CreateImageRequest request)
+    public IActionResult Post([FromQuery] bool download, [FromBody] CreateImageRequest request)
     {
         if (!ModelState.IsValid)
         {
@@ -24,6 +25,14 @@ public class CreateImageController : ControllerBase
         }
 
         var svg = _svgGenerator.Generate(request);
+
+        if (download)
+        {
+            var svgBytes = Encoding.UTF8.GetBytes(svg);
+            var filename = $"life-in-dots-{DateTime.UtcNow:yyyyMMddHHmmss}.svg";
+
+            return File(svgBytes, "image/svg+xml", filename);
+        }
 
         return Content(svg, "image/svg+xml");
     }
